@@ -17,7 +17,7 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Evolution X
 TARGET_BOOT_ANIMATION_RES := 1080
-TARGET_BUILD_APERTURE_CAMERA := true
+PRODUCT_NO_CAMERA := true
 TARGET_HAS_UDFPS := true
 EVO_BUILD_TYPE := Official
 
